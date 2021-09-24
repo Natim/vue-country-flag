@@ -362,6 +362,18 @@ This component currently supports both **alpha-2** and **alpha-3** alternatives.
 | Scotland | gb-sct |
 | United Nations | un |
 
+## Disclamer
+
+You might be tempted to use this project to display flags in a language selector.
+
+Please think twice before doing so, **flags in language selector is an anti-pattern**.
+
+> Flags are unique to a country or nation: but languages are often
+> spoken across national borders. By using a flag for a language, you
+> may confuse or even offend users.
+> — http://www.flagsarenotlanguages.com
+
+
 ## Credits
 
 The flags used for this Vue components are provided by [Flag Icons CSS](https://github.com/lipis/flag-icon-css "Flag Icons CSS").
